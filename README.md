@@ -46,7 +46,7 @@ datasette -m metadata.yml
 If you are deploying using `datasette publish` you can pass these using `--plugin-secret`. For example, to deploy using Cloud Run you might run the following:
 ```
 datasette publish cloudrun mydatabase.db \
---install datasette-auth-passwords \
+--install datasette-auth0 \
 --plugin-secret datasette-auth0 domain "your-domain.us.auth0.com" \
 --plugin-secret datasette-auth0 client_id "your-client-id" \
 --plugin-secret datasette-auth0 client_secret "your-client-secret" \
