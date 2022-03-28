@@ -13,6 +13,10 @@ Install this plugin in the same environment as Datasette.
 
     $ datasette install datasette-auth0
 
+## Demo
+
+You can try this out at [datasette-auth0-demo.datasette.io](https://datasette-auth0-demo.datasette.io/) - click on the top right menu icon and select "Sign in with Auth0".
+
 ## Initial configuration
 
 First, create a new application in Auth0. You will need the domain, client ID and client secret for that application.
