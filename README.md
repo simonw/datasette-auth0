@@ -7,6 +7,8 @@
 
 Datasette plugin that authenticates users using [Auth0](https://auth0.com/)
 
+See [Simplest possible OAuth authentication with Auth0](https://til.simonwillison.net/auth0/oauth-with-auth0) for more about how this plugin works.
+
 ## Installation
 
 Install this plugin in the same environment as Datasette.
